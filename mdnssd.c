@@ -43,7 +43,8 @@ typedef uint32_t in_addr_t;
 #include <ifaddrs.h>
 #endif
 
-#include "mdnssd-itf.h"
+
+#include "mdnssd-itf.h"
 
 static int debug_mode;
 
@@ -274,7 +275,7 @@ int main(int argc, char* argv[]) {
 
   // last argument should be query
   query_arg = argv[argc-1];
-
+	printf("qeruy=%s\n", query_arg);	
   if (query_arg[0] != '_') {
 	  printf("usage: mdnssd [-h <interface>] [-t <duration>] [-c <count>] [-d] <query>\n");
 	  return 1;
