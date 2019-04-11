@@ -779,6 +779,7 @@ int send_query(int sock, char* query_arg, uint16_t query_type) {
 
   debug("Sending DNS message with length: %u\n", data_size);
   // send query message
+  hexDump("sendQuery", data, data_size);
   res = sendto(sock, data, data_size, 0, (struct sockaddr *) &addr, addrlen);
   
   return res;
@@ -981,6 +982,7 @@ void main_loop(int sock, char* query_arg, int min_answers, FoundAnswerList* alis
     } else if(res == 0) {
       fail("unknown error"); // TODO for TCP means connection closed, but for UDP?
     }
+    hexDump("recv",recvdata, res );
     debug("Received %u bytes from %s\n", res, inet_ntoa(addr.sin_addr));
 
     parsed = 0;
