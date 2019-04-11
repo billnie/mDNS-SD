@@ -1,0 +1,558 @@
+
+Receiving data
+Received 1205 bytes from 192.168.1.250
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 1
+  OPCODE: 2
+      AA: 1
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 0
+ANCOUNT: 14
+NSCOUNT: 0
+ARCOUNT: 5
+Resource records:
+  Question records [0] (not shown)
+  Answer records [14]
+    Answer record 1 of 14
+      Resource Record Name: 250.1.168.192.in-addr.arpa
+      Resource Record Type: 12
+        PTR: android-00000000d2afbfe2.local
+    ------------------------------
+    Answer record 2 of 14
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 3 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _raop._tcp.local
+    ------------------------------
+    Answer record 4 of 14
+      Resource Record Name: _raop._tcp.local
+      Resource Record Type: 12
+        PTR: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+    ------------------------------
+    Answer record 5 of 14
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 6 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _airplay._tcp.local
+    ------------------------------
+    Answer record 7 of 14
+      Resource Record Name: _airplay._tcp.local
+      Resource Record Type: 12
+        PTR: XiaoMoTou(3983)._airplay._tcp.local
+    ------------------------------
+    Answer record 8 of 14
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 9 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _leboremote._tcp.local
+    ------------------------------
+    Answer record 10 of 14
+      Resource Record Name: _leboremote._tcp.local
+      Resource Record Type: 12
+        PTR: XiaoMoTou(3983)._leboremote._tcp.local
+    ------------------------------
+    Answer record 11 of 14
+      Resource Record Name: android-00000000d2afbfe2.local
+      Resource Record Type: 1
+        A: 192.168.1.250
+    ------------------------------
+    Answer record 12 of 14
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+    Answer record 13 of 14
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+    Answer record 14 of 14
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 250.1.168.192.in-addr.arpa
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: android-00000000d2afbfe2.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 1205 bytes of 1205 received bytes
+Finished parsing received data
+Receiving data
+Received 70 bytes from 192.168.1.166
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 0
+  OPCODE: 0
+      AA: 0
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 1
+Resource records:
+  Question records [1] (not shown)
+  Answer records [0]
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 
+      Resource Record Type: 10501
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 4661 bytes of 70 received bytes
+Finished parsing received data
+Receiving data
+Received 70 bytes from 192.168.1.166
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 0
+  OPCODE: 0
+      AA: 0
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 1
+Resource records:
+  Question records [1] (not shown)
+  Answer records [0]
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 
+      Resource Record Type: 10501
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 4661 bytes of 70 received bytes
+Finished parsing received data
+Receiving data
+Received 1205 bytes from 192.168.1.250
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 1
+  OPCODE: 2
+      AA: 1
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 0
+ANCOUNT: 14
+NSCOUNT: 0
+ARCOUNT: 5
+Resource records:
+  Question records [0] (not shown)
+  Answer records [14]
+    Answer record 1 of 14
+      Resource Record Name: 250.1.168.192.in-addr.arpa
+      Resource Record Type: 12
+        PTR: android-00000000d2afbfe2.local
+    ------------------------------
+    Answer record 2 of 14
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 3 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _raop._tcp.local
+    ------------------------------
+    Answer record 4 of 14
+      Resource Record Name: _raop._tcp.local
+      Resource Record Type: 12
+        PTR: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+    ------------------------------
+    Answer record 5 of 14
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 6 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _airplay._tcp.local
+    ------------------------------
+    Answer record 7 of 14
+      Resource Record Name: _airplay._tcp.local
+      Resource Record Type: 12
+        PTR: XiaoMoTou(3983)._airplay._tcp.local
+    ------------------------------
+    Answer record 8 of 14
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 9 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _leboremote._tcp.local
+    ------------------------------
+    Answer record 10 of 14
+      Resource Record Name: _leboremote._tcp.local
+      Resource Record Type: 12
+        PTR: XiaoMoTou(3983)._leboremote._tcp.local
+    ------------------------------
+    Answer record 11 of 14
+      Resource Record Name: android-00000000d2afbfe2.local
+      Resource Record Type: 1
+        A: 192.168.1.250
+    ------------------------------
+    Answer record 12 of 14
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+    Answer record 13 of 14
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+    Answer record 14 of 14
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 250.1.168.192.in-addr.arpa
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: android-00000000d2afbfe2.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 1205 bytes of 1205 received bytes
+Finished parsing received data
+Receiving data
+Received 66 bytes from 192.168.1.8
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 0
+  OPCODE: 0
+      AA: 0
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 1
+Resource records:
+  Question records [1] (not shown)
+  Answer records [0]
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 
+      Resource Record Type: 10501
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 4657 bytes of 66 received bytes
+Finished parsing received data
+Receiving data
+Received 1205 bytes from 192.168.1.250
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 1
+  OPCODE: 2
+      AA: 1
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 0
+ANCOUNT: 14
+NSCOUNT: 0
+ARCOUNT: 5
+Resource records:
+  Question records [0] (not shown)
+  Answer records [14]
+    Answer record 1 of 14
+      Resource Record Name: 250.1.168.192.in-addr.arpa
+      Resource Record Type: 12
+        PTR: android-00000000d2afbfe2.local
+    ------------------------------
+    Answer record 2 of 14
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 3 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _raop._tcp.local
+    ------------------------------
+    Answer record 4 of 14
+      Resource Record Name: _raop._tcp.local
+      Resource Record Type: 12
+        PTR: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+    ------------------------------
+    Answer record 5 of 14
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 6 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _airplay._tcp.local
+    ------------------------------
+    Answer record 7 of 14
+      Resource Record Name: _airplay._tcp.local
+      Resource Record Type: 12
+        PTR: XiaoMoTou(3983)._airplay._tcp.local
+    ------------------------------
+    Answer record 8 of 14
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 16
+      [skipped irrelevant record]
+    ------------------------------
+    Answer record 9 of 14
+      Resource Record Name: _services._dns-sd._udp.local
+      Resource Record Type: 12
+        PTR: _leboremote._tcp.local
+    ------------------------------
+    Answer record 10 of 14
+      Resource Record Name: _leboremote._tcp.local
+      Resource Record Type: 12
+        PTR: XiaoMoTou(3983)._leboremote._tcp.local
+    ------------------------------
+    Answer record 11 of 14
+      Resource Record Name: android-00000000d2afbfe2.local
+      Resource Record Type: 1
+        A: 192.168.1.250
+    ------------------------------
+    Answer record 12 of 14
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+    Answer record 13 of 14
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+    Answer record 14 of 14
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 33
+        SRV target: android-00000000d2afbfe2.local
+        SRV port: 52266
+    ------------------------------
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 250.1.168.192.in-addr.arpa
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: 2c5b43b4b428@XiaoMoTou(3983)._raop._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: XiaoMoTou(3983)._airplay._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: XiaoMoTou(3983)._leboremote._tcp.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+      Resource Record Name: android-00000000d2afbfe2.local
+      Resource Record Type: 47
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 1205 bytes of 1205 received bytes
+Finished parsing received data
+Receiving data
+Received 70 bytes from 192.168.1.244
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 0
+  OPCODE: 0
+      AA: 0
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 1
+Resource records:
+  Question records [1] (not shown)
+  Answer records [0]
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 
+      Resource Record Type: 10501
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 4661 bytes of 70 received bytes
+Finished parsing received data
+Receiving data
+Received 70 bytes from 192.168.1.244
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 0
+  OPCODE: 0
+      AA: 0
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 1
+Resource records:
+  Question records [1] (not shown)
+  Answer records [0]
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 
+      Resource Record Type: 10501
+      [skipped irrelevant record]
+    ------------------------------
+--Parsed 4661 bytes of 70 received bytes
+Finished parsing received data
+Receiving data
+Received 66 bytes from 192.168.1.244
+Attempting to parse received data
+ID: 0
+Flags: 
+      QR: 0
+  OPCODE: 0
+      AA: 0
+      TC: 0
+      RD: 0
+      RA: 0
+       Z: 0
+      AD: 0
+      CD: 0
+   RCODE: 0
+
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 1
+Resource records:
+  Question records [1] (not shown)
+  Answer records [0]
+  Nameserver records [0] (not shown)
+  Additional records [0] (not shown)
+      Resource Record Name: 
+      Resource Record Type: 10501
+      [skipped irrelevant record]
+    ------------------------------
+
+
+
+android-00000000d2afbfe2.local	192.168.1.250	52266
+P150G-6FF166.local	192.168.1.29	7000
+i400-bb5-ITV.local	192.168.1.129	7000
+android-00000000d2afbfe2.local	192.168.1.250	52266
+android-00000000d2afbfe2.local	192.168.1.250	52266
+android-00000000d2afbfe2.local	192.168.1.250	52266
+android-00000000d2afbfe2.local	192.168.1.250	52266
+android-00000000d2afbfe2.local	192.168.1.250	52266
+android-00000000d2afbfe2.local	192.168.1.250	52266
+android-00000000d2afbfe2.local	192.168.1.250	52266

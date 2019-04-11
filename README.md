@@ -8,6 +8,8 @@ add Android.mk support for android
 
 mDNS -d  -t 10 _nodeconf._tcp.local
 
+查看提供服务的
+mDNS-min -a 30 -d -t 10000 _airplay._tcp.local
 
 # About #
 
